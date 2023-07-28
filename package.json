@@ -1,0 +1,40 @@
+{
+  "name": "demo-zhin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:zhin": "start-zhin",
+    "build": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhinjs/demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhinjs/demo/issues"
+  },
+  "homepage": "https://github.com/zhinjs/demo#readme",
+  "dependencies": {
+    "@vercel/node": "^2.15.6",
+    "@zhinjs/adapter-onebot": "latest",
+    "@zhinjs/client": "^0.0.3",
+    "@zhinjs/plugin-console": "^0.0.6",
+    "@zhinjs/plugin-control": "^0.0.12",
+    "@zhinjs/plugin-database": "^0.0.25",
+    "dayjs": "^1.11.9",
+    "marked": "^5.1.2",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.0",
+    "zhin": "latest"
+  },
+  "devDependencies": {
+    "@types/koa": "latest",
+    "tsc-alias": "latest",
+    "tsconfig-paths": "latest",
+    "typescript": "latest"
+  }
+}
